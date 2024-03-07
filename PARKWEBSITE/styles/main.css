@@ -185,6 +185,10 @@ footer{
   display: block;
 }
 
+.row {
+  display: flex;
+}
+
 /* 
   ##Device = Most of the Smartphones Mobiles (Portrait)
   ##Screen = B/w 320px to 479px
@@ -206,10 +210,10 @@ footer{
     width: 256px;
   }
 
-  .row{
+  .row {
     flex-direction: column;
-  }
-  .sidy-by-side{
+}
+   .sidy-by-side{
     flex-direction: column;
     align-items: center;
   }
