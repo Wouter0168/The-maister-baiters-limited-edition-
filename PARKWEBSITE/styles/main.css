@@ -168,7 +168,16 @@ button{
   max-width: 1000px;
 }
 
-.sidy-by-side{
+.sidy-by-side {
+  display: flex; 
+  justify-content: space-between; 
+}
+
+
+@media only screen and (max-width: 768px) {
+  .sidy-by-side {
+      flex-direction: column;
+  }
 }
 
 .description{
