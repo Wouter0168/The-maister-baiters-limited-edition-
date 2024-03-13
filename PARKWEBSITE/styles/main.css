@@ -162,6 +162,12 @@ button{
   height: 64px;
 }
 
+.merch{
+  padding-left: 10px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .sidy-by-side{
 }
 
